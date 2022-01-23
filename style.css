@@ -1,0 +1,77 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ background - color: powderblue;
+}
+
+header {
+ display: flex;
+ justify - content: center;
+ align - items: center;
+}
+
+header h1 {
+ font - size: 40 px;
+ margin: auto;
+}
+
+#snake - main - cont {
+ width: 90 vw;
+ height: 80 vw;
+ margin - top: 10 px;
+ position: relative;
+ margin - left: 5 vw;
+ border: 1 px solid black;
+}
+
+#snake - cont {
+  margin: auto;
+  width: 90 vw;
+  height: 80 vw;
+  background - color: #9c9c9c;
+}
+
+# snake - part {
+   width: 5 vw;
+   position: absolute;
+   border: 0;
+   left: 0 vw;
+   bottom: 5 vw;
+   transition: ease - in -out 100 ms all;
+   visibility: hidden;
+   /* visibility: hidden; */
+  }
+
+  #snake - food {
+   width: 5 vw;
+   left: 0 vw;
+   bottom: 0 vw;
+   position: absolute;
+   border: 0;
+   display: flex;
+   justify - content: center;
+   align - items: center;
+  }
+
+  #score {
+   width: 100 vw;
+   display: flex;
+   justify - content: center;
+   align - items: center;
+   font - size: 60 px;
+   margin - top: 30 px;
+  }
+
+  #buttons {
+   height: 60 px;
+   display: flex;
+   justify - content: center;
+   align - items: center;
+  }
+
+  #buttons button {
+   margin: 0 10 px;
+  }
