@@ -1,77 +1,77 @@
-*{
- padding: 0;
- margin: 0;
-}
-
-body {
- background - color: powderblue;
-}
-
-header {
- display: flex;
- justify - content: center;
- align - items: center;
-}
-
-header h1 {
- font - size: 40 px;
- margin: auto;
-}
-
-#snake - main - cont {
- width: 90 vw;
- height: 80 vw;
- margin - top: 10 px;
- position: relative;
- margin - left: 5 vw;
- border: 1 px solid black;
-}
-
-#snake - cont {
-  margin: auto;
-  width: 90 vw;
-  height: 80 vw;
-  background - color: #9c9c9c;
-}
-
-# snake - part {
-   width: 5 vw;
+* {
+   padding: 0;
+   margin: 0;
+  }
+  
+  body {
+   background-color: powderblue;
+  }
+  
+  header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  header h1 {
+   font-size: 40px;
+   margin: auto;
+  }
+  
+  #snake-main-cont {
+   width: 90vw;
+   height: 80vw;
+   margin-top: 10px;
+   position: relative;
+   margin-left: 5vw;
+   border: 1px solid black;
+  }
+  
+  #snake-cont {
+   margin: auto;
+   width: 90vw;
+   height: 80vw;
+   background-color: #9c9c9c;
+  }
+  
+  #snake-part {
+   width: 5vw;
    position: absolute;
    border: 0;
-   left: 0 vw;
-   bottom: 5 vw;
-   transition: ease - in -out 100 ms all;
+   left: 0vw;
+   bottom: 5vw;
+   transition: ease-in-out 100ms all;
    visibility: hidden;
    /* visibility: hidden; */
   }
-
-  #snake - food {
-   width: 5 vw;
-   left: 0 vw;
-   bottom: 0 vw;
+  
+  #snake-food {
+   width: 5vw;
+   left: 0vw;
+   bottom: 0vw;
    position: absolute;
    border: 0;
    display: flex;
-   justify - content: center;
-   align - items: center;
+   justify-content: center;
+   align-items: center;
   }
-
+  
   #score {
-   width: 100 vw;
+   width: 100vw;
    display: flex;
-   justify - content: center;
-   align - items: center;
-   font - size: 60 px;
-   margin - top: 30 px;
+   justify-content: center;
+   align-items: center;
+   font-size: 60px;
+   margin-top: 30px;
   }
-
+  
   #buttons {
-   height: 60 px;
+   height: 60px;
    display: flex;
-   justify - content: center;
-   align - items: center;
+   justify-content: center;
+   align-items: center;
   }
-
+  
   #buttons button {
-   margin: 0 10 px;
+   margin: 0 10px;
   }
