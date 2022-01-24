@@ -1,5 +1,5 @@
 class Snake {
- constructor() {
+ constructor(){
   this.id = 19;
   this.turnid = 19;
   this.lengthlastid = 19;
